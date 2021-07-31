@@ -14,7 +14,7 @@ body {
   background-color: var(--main-background);
 }
 
-.section-main {
+section{
   display: flex;
   height: 130vh;
   width: 100%;
@@ -52,10 +52,10 @@ body {
   mix-blend-mode: multiply;
 }
 
-.section-attribution div > * {
+footer div > * {
   font-size: 11px;
 }
-.section-attribution div p a {
+footer div p a {
   text-decoration: none;
   color: var(--attribution-color);
 }
